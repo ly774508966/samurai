@@ -1,0 +1,87 @@
+fileFormatVersion: 2
+guid: 6ccdeec721e8b441999e453cbf822db9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: rspine
+    100002: Rshin
+    100004: Dummy05
+    100006: Lshin
+    100008: Lcalf
+    100010: Rhand
+    100012: Larm
+    100014: lspine
+    100016: Rcalf
+    100018: Rarm
+    100020: //RootNode
+    100022: enemy_swordsman03
+    400000: rspine
+    400002: Rshin
+    400004: Dummy05
+    400006: Lshin
+    400008: Lcalf
+    400010: Rhand
+    400012: Larm
+    400014: lspine
+    400016: Rcalf
+    400018: Rarm
+    400020: //RootNode
+    400022: enemy_swordsman03
+    4300000: enemy_swordsman03
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: enemy_swordsman03
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 8
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

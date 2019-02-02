@@ -1,0 +1,87 @@
+fileFormatVersion: 2
+guid: f93f6799852bd41b884d48c7f014c2b7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Larm
+    100002: Rarm
+    100004: //RootNode
+    100006: Lcalf
+    100008: Rforearm
+    100010: spine
+    100012: Lshin
+    100014: Rshin
+    100016: head
+    100018: swordsman01
+    100020: Rcalf
+    100022: Dummy01
+    400000: Larm
+    400002: Rarm
+    400004: //RootNode
+    400006: Lcalf
+    400008: Rforearm
+    400010: spine
+    400012: Lshin
+    400014: Rshin
+    400016: head
+    400018: swordsman01
+    400020: Rcalf
+    400022: Dummy01
+    4300000: swordsman01
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: swordsman01
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 8
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
