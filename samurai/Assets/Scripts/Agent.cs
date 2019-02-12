@@ -20,6 +20,7 @@ public class Agent : MonoBehaviour
     public Vector3 Position { get { return transform.position; } }
     public Vector3 Forward { get { return transform.forward; } }
     public Vector3 Right { get { return transform.right; } }
+    public Vector3 ChestPosition { get { return Transform.position + transform.up * 1.5f; } }
 
     public bool isPlayer = false;
 
@@ -238,8 +239,8 @@ public class Agent : MonoBehaviour
 
     public void ReceiveHitCompletelyBlocked(Agent attacker)
     {
-        /*CombatEffectsManager.Instance.PlayBlockHitEffect(ChestPosition, -attacker.Forward);
-        BlackBoard.Berserk += BlackBoard.BerserkBlockModificator;
+        CombatEffectMgr.Instance.PlayBlockHitEffect(ChestPosition, -attacker.Forward);
+        /*BlackBoard.Berserk += BlackBoard.BerserkBlockModificator;
         BlackBoard.Rage += BlackBoard.RageBlockModificator;
         if (attacker.IsPlayer)
             Game.Instance.NumberOfBlockedHits++;*/
@@ -257,7 +258,7 @@ public class Agent : MonoBehaviour
             BlackBoard.blockResult = BlockResult.FAIL;
             BlackBoard.health = Mathf.Max(1, BlackBoard.health - damage);
             BlackBoard.damageType = DamageType.BreakBlock; // 抵挡破防失败（扣血）
-            //CombatEffectsManager.Instance.PlayBloodEffect(Transform.position, -attacker.Forward);
+            CombatEffectMgr.Instance.PlayBloodEffect(Transform.position, -attacker.Forward);
             //SpriteEffectsManager.Instance.CreateBlood(Transform);
         }
         else
@@ -276,7 +277,7 @@ public class Agent : MonoBehaviour
                 BlackBoard.damageType = DamageType.Front; // 抵挡破防成功
                 //if (attacker.isPlayer)
                   //  Game.Instance.NumberOfBlockedHits++;
-                //CombatEffectsManager.Instance.PlayBlockHitEffect(ChestPosition, -attacker.Forward);
+                CombatEffectMgr.Instance.PlayBlockHitEffect(ChestPosition, -attacker.Forward);
             }
         }
     }
@@ -340,10 +341,10 @@ public class Agent : MonoBehaviour
                 }
             }
 
-            /*if (damage >= 15)
-                CombatEffectsManager.Instance.PlayBloodBigEffect(Transform.position, -attacker.Forward);
+            if (damage >= 15)
+                CombatEffectMgr.Instance.PlayBloodBigEffect(Transform.position, -attacker.Forward);
             else
-                CombatEffectsManager.Instance.PlayBloodEffect(Transform.position, -attacker.Forward);*/
+                CombatEffectMgr.Instance.PlayBloodEffect(Transform.position, -attacker.Forward);
 
         }
     }
