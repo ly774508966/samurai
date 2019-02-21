@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System;
+using System.Collections.Generic;
 
 public class Mathfx
 {
@@ -12,7 +13,6 @@ public class Mathfx
     {
         return new Vector3(Hermite(start.x, end.x, value), Hermite(start.y, end.y, value), Hermite(start.z, end.z, value));
     }
-
 
     public static float Sinerp(float start, float end, float value)
     {
@@ -193,12 +193,20 @@ public class Mathfx
         float d = 1.0f - t;
         return d * d * st + 2.0f * d * t * ctrl + t * t * en;
     }
-
-
+    
     static Vector3 BezDirection(Vector3 st, Vector3 en, Vector3 ctrl, float t)
     {
         return (2.0f * st - 4.0f * ctrl + 2.0f * en) * t + 2.0f * ctrl - 2.0f * st;
     }
 
-
+    public static void GetNumArr(uint val, List<uint> numArr)
+    {
+        numArr.Clear();
+        uint i = val;
+        do
+        {
+            numArr.Add(i % 10);
+            i /= 10;
+        } while (i > 0);
+    }
 }

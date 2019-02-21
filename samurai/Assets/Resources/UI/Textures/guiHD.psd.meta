@@ -1,0 +1,1551 @@
+fileFormatVersion: 2
+guid: 6b6fc7ea23fd91e46b4bc5b676888a7e
+timeCreated: 1503712350
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: guiHD_4
+    21300002: guiHD_5
+    21300004: guiHD_6
+    21300006: guiHD_14
+    21300008: guiHD_18
+    21300010: guiHD_50
+    21300012: guiHD_51
+    21300014: guiHD_52
+    21300016: guiHD_65
+    21300018: guiHD_70
+    21300020: guiHD_76
+    21300022: guiHD_89
+    21300024: guiHD_90
+    21300026: guiHD_102
+    21300028: guiHD_116
+    21300030: guiHD_125
+    21300032: guiHD_138
+    21300034: guiHD_139
+    21300036: guiHD_140
+    21300038: guiHD_141
+    21300040: guiHD_142
+    21300042: guiHD_143
+    21300044: guiHD_144
+    21300046: guiHD_145
+    21300048: guiHD_146
+    21300050: guiHD_147
+    21300052: guiHD_148
+    21300054: guiHD_149
+    21300056: guiHD_150
+    21300058: guiHD_151
+    21300060: guiHD_152
+    21300062: guiHD_153
+    21300064: guiHD_154
+    21300066: guiHD_155
+    21300068: guiHD_156
+    21300070: guiHD_157
+    21300072: guiHD_158
+    21300074: guiHD_159
+    21300076: guiHD_160
+    21300078: guiHD_161
+    21300080: guiHD_162
+    21300082: guiHD_163
+    21300084: guiHD_164
+    21300086: guiHD_165
+    21300088: guiHD_166
+    21300090: guiHD_167
+    21300092: guiHD_168
+    21300094: guiHD_169
+    21300096: guiHD_170
+    21300098: guiHD_171
+    21300100: guiHD_172
+    21300102: guiHD_173
+    21300104: guiHD_174
+    21300106: guiHD_175
+    21300108: guiHD_176
+    21300110: guiHD_177
+    21300112: guiHD_178
+    21300114: guiHD_179
+    21300116: guiHD_180
+    21300118: guiHD_181
+    21300120: guiHD_0
+    21300122: guiHD_1
+    21300124: guiHD_2
+    21300126: guiHD_3
+    21300128: guiHD_7
+    21300130: guiHD_8
+    21300132: guiHD_9
+    21300134: guiHD_10
+    21300136: guiHD_11
+    21300138: guiHD_12
+    21300140: guiHD_13
+    21300142: guiHD_15
+    21300144: guiHD_16
+    21300146: guiHD_17
+    21300148: guiHD_19
+    21300150: guiHD_20
+    21300152: guiHD_21
+    21300154: guiHD_22
+    21300156: guiHD_23
+    21300158: guiHD_24
+    21300160: guiHD_25
+    21300162: guiHD_26
+    21300164: guiHD_27
+    21300166: guiHD_28
+    21300168: guiHD_29
+    21300170: guiHD_30
+    21300172: guiHD_31
+    21300174: guiHD_32
+    21300176: guiHD_33
+    21300178: guiHD_34
+    21300180: guiHD_35
+    21300182: guiHD_36
+    21300184: guiHD_37
+    21300186: guiHD_38
+    21300188: guiHD_39
+    21300190: guiHD_40
+    21300192: guiHD_41
+    21300194: guiHD_42
+    21300196: guiHD_43
+    21300198: guiHD_44
+    21300200: guiHD_45
+    21300202: guiHD_46
+    21300204: guiHD_47
+    21300206: guiHD_48
+    21300208: guiHD_49
+    21300210: guiHD_53
+    21300212: guiHD_54
+    21300214: guiHD_55
+    21300216: guiHD_56
+    21300218: guiHD_57
+    21300220: guiHD_58
+    21300222: guiHD_59
+    21300224: guiHD_60
+    21300226: guiHD_61
+    21300228: guiHD_62
+    21300230: guiHD_63
+    21300232: guiHD_64
+    21300234: guiHD_66
+    21300236: guiHD_67
+    21300238: guiHD_68
+    21300240: guiHD_69
+    21300242: guiHD_71
+    21300244: guiHD_72
+    21300246: guiHD_73
+    21300248: guiHD_74
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 2
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: guiHD_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 856
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 910
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_6
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 910
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_14
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1001
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 941
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_50
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 796
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_51
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 795
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_52
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 860
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_65
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 870
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_70
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 778
+        width: 352
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_76
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 829
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_89
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 704
+        width: 352
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_90
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 679
+        width: 113
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_102
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 755
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_116
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 605
+        width: 352
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_125
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 605
+        width: 140
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_138
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 531
+        width: 49
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_139
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 602
+        width: 75
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_150
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 536
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_151
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 531
+        width: 32
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_152
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 531
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_153
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 529
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_154
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 530
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_155
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 528
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_156
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 532
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_157
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 531
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_158
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 530
+        width: 49
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_160
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 431
+        width: 354
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_164
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 483
+        width: 105
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_165
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 485
+        width: 105
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_172
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 308
+        width: 508
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_174
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2
+        width: 749
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_177
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 110
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_178
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 59
+        width: 100
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_179
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 105
+        width: 104
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_180
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_181
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 11
+        width: 111
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 858
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 942
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_2
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 681
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_3
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 968
+        width: 234
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_7
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 929
+        width: 322
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_8
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 868
+        width: 322
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_9
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 828
+        width: 168
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_10
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 797
+        width: 241
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_11
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 753
+        width: 291
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_12
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 681
+        width: 244
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_13
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 636
+        width: 263
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_15
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 582
+        width: 265
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_16
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 487
+        width: 100
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_17
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 329
+        width: 182
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_19
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 502
+        width: 60
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 472
+        width: 60
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 433
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_22
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 408
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_23
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 400
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 389
+        width: 245
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 359
+        width: 245
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 329
+        width: 245
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 299
+        width: 245
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 269
+        width: 245
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 240
+        width: 245
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_30
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 282
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_31
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 284
+        width: 154
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_32
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 248
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_33
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 247
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 247
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_35
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 247
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_36
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 246
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 245
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_38
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 246
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_39
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 246
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_40
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 246
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_41
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 246
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_42
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 200
+        width: 197
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_43
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 200
+        width: 95
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_44
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 200
+        width: 95
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 266
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 342
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_47
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 159
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_48
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 159
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_49
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 130
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_53
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 100
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_54
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 101
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_55
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 130
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_56
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 130
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_57
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 130
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_58
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 130
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_59
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 130
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_60
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 130
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_61
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 130
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_62
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 130
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_63
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 130
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_64
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 159
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_66
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 159
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_67
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 69
+        width: 248
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_68
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 40
+        width: 248
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_69
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 20
+        width: 728
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_71
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 185
+        width: 266
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_72
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 185
+        width: 266
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_73
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 433
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: guiHD_74
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 265
+        width: 75
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

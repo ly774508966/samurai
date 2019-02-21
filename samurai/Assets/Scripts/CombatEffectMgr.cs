@@ -13,17 +13,22 @@ public class CombatEffectMgr : MonoBehaviour
     [System.Serializable]
     public class CombatEffect
     {
-        private Queue<CombatEffectData> _cache = new Queue<CombatEffectData>();
-        private List<CombatEffectData> _inUse = new List<CombatEffectData>();
+        Queue<CombatEffectData> _cache = new Queue<CombatEffectData>();
+        List<CombatEffectData> _inUse = new List<CombatEffectData>();
         public GameObject prefab;
+
+        List<int> _finished = new List<int>();
 
         public void Init(int count)
         {
+            if (prefab == null)
+            {
+                return;
+            }
             for (int i = 0; i < count; i++)
             {
                 CombatEffectData c = new CombatEffectData();
                 c.go = GameObject.Instantiate(prefab) as GameObject;
-
                 c.emitters = c.go.GetComponentsInChildren<ParticleSystem>();
                 //c.tran = c.go.transform;
                 _cache.Enqueue(c);
@@ -31,21 +36,35 @@ public class CombatEffectMgr : MonoBehaviour
             }
         }
 
-        public void Update()
+        public void UpdateEffect()
         {
+            _finished.Clear();
             for (int i = _inUse.Count - 1; i >= 0; i--)
             {
                 CombatEffectData c = _inUse[i];
+                bool allEmittersFinished = true;
                 for (int ii = 0; ii < c.emitters.Length; ii++)
                 {
-                    if (c.emitters[ii].IsAlive() == false)
+                    if (c.emitters[ii].IsAlive())
                     {
-                        c.go.transform.parent = null;
-                        _cache.Enqueue(_inUse[i]);
-                        _inUse.RemoveAt(i);
-                        c.go.SetActive(false);
+                        allEmittersFinished = false;
+                        break;                       
                     }
-                }                
+                }
+
+                if (allEmittersFinished)
+                {
+                    _finished.Add(i);
+                }
+            }
+
+            foreach (var idx in _finished)
+            {
+                CombatEffectData c = _inUse[idx];
+                c.go.transform.parent = null;
+                c.go.SetActive(false);
+                _cache.Enqueue(c);                
+                _inUse.RemoveAt(idx);                
             }
         }
 
@@ -82,26 +101,26 @@ public class CombatEffectMgr : MonoBehaviour
     static public CombatEffectMgr Instance = null;
 
     [SerializeField]
-    CombatEffect Blood;
+    CombatEffect Blood = new CombatEffect();
     [SerializeField]
-    CombatEffect BloodBig;
+    CombatEffect BloodBig = new CombatEffect();
     [SerializeField]
-    CombatEffect BlockHit;
+    CombatEffect BlockHit = new CombatEffect();
     [SerializeField]
-    CombatEffect BlockBreak;
+    CombatEffect BlockBreak = new CombatEffect();
     [SerializeField]
-    CombatEffect Critical;
+    CombatEffect Critical = new CombatEffect();
     [SerializeField]
-    CombatEffect Knockdown;
+    CombatEffect Knockdown = new CombatEffect();
 
     [SerializeField]
-    CombatEffect Spawn;
+    CombatEffect Spawn = new CombatEffect();
     [SerializeField]
-    CombatEffect Disappear;
+    CombatEffect Disappear = new CombatEffect();
     [SerializeField]
-    CombatEffect Whirl;
+    CombatEffect Whirl = new CombatEffect();
     [SerializeField]
-    CombatEffect Roll;    
+    CombatEffect Roll = new CombatEffect();
 
     void Awake()
     {        
@@ -123,16 +142,16 @@ public class CombatEffectMgr : MonoBehaviour
 
     void LateUpdate()
     {
-        Blood.Update();
-        BloodBig.Update();
-        BlockHit.Update();
+        Blood.UpdateEffect();
+        BloodBig.UpdateEffect();
+        /*BlockHit.Update();
         BlockBreak.Update();
         Critical.Update();
         Knockdown.Update();
         Whirl.Update();
         Roll.Update();
         Spawn.Update();
-        Disappear.Update();
+        Disappear.Update();*/
     }
 
     public void PlayBloodEffect(Vector3 pos, Vector3 dir)
