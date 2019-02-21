@@ -241,3 +241,14 @@ public enum BlockResult
     SUCCESS,
     FAIL,
 }
+
+public enum FullComboType
+{
+    NONE = 0,
+    RAISE_WAVE,         // XXXXO 浪翻（快速）
+    HALF_MOON,          // OOOXX 半月（破防）
+    CLOUD_CUT,          // OOXXX 云切（致命）
+    WALKING_DEATH,      // XXOXX 踏死（击倒）
+    CRASH_GENERAL,      // OXOOO 破将（重击、群伤）
+    FLYING_DRAGON,      // XOOXX 飞龙
+}

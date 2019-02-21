@@ -11,7 +11,8 @@ public class ComboMgr : MonoBehaviour
     }
 
     class Combo
-    {        
+    {
+        public FullComboType fullComboType;
         public ComboStep[] comboSteps;
     }
 
@@ -27,8 +28,9 @@ public class ComboMgr : MonoBehaviour
     void Start()
     {
         _animSetPlayer = GetComponent<AnimSetPlayer>();
-        _playerComboAttacks[0] = new Combo() // FAST   Raisin Wave
-        {            
+        _playerComboAttacks[0] = new Combo()
+        {
+            fullComboType = FullComboType.RAISE_WAVE,
             comboSteps = new ComboStep[]
             {
                 new ComboStep(){attackType = AttackType.X, data = _animSetPlayer.AttackData[0]},
@@ -39,8 +41,9 @@ public class ComboMgr : MonoBehaviour
                 new ComboStep(){attackType = AttackType.O, data = _animSetPlayer.AttackData[4]},
             }
         };
-        _playerComboAttacks[1] = new Combo() // BREAK BLOCK  half moon
-        {         
+        _playerComboAttacks[1] = new Combo()
+        {
+            fullComboType = FullComboType.HALF_MOON,
             comboSteps = new ComboStep[]
             {
                 new ComboStep(){attackType = AttackType.O, data = _animSetPlayer.AttackData[5]},
@@ -50,8 +53,9 @@ public class ComboMgr : MonoBehaviour
                 new ComboStep(){attackType = AttackType.X, data = _animSetPlayer.AttackData[9]},
             }
         };
-        _playerComboAttacks[2] = new Combo() // CRITICAL  cloud cuttin
-        {            
+        _playerComboAttacks[2] = new Combo()
+        {
+            fullComboType = FullComboType.CLOUD_CUT,
             comboSteps = new ComboStep[]
             {               
                     new ComboStep(){attackType = AttackType.O, data = _animSetPlayer.AttackData[5]},
@@ -62,8 +66,9 @@ public class ComboMgr : MonoBehaviour
             }
         };
 
-        _playerComboAttacks[3] = new Combo()  // flying dragon
-        {            
+        _playerComboAttacks[3] = new Combo()
+        {
+            fullComboType = FullComboType.FLYING_DRAGON,
             comboSteps = new ComboStep[]
             {
                 new ComboStep(){attackType = AttackType.X, data = _animSetPlayer.AttackData[0]},
@@ -73,8 +78,9 @@ public class ComboMgr : MonoBehaviour
                 new ComboStep(){attackType = AttackType.X, data = _animSetPlayer.AttackData[13]},
             }
         };
-        _playerComboAttacks[4] = new Combo() // KNCOK //walking death
-        {            
+        _playerComboAttacks[4] = new Combo()
+        {
+            fullComboType = FullComboType.WALKING_DEATH,
             comboSteps = new ComboStep[]
             {
                 new ComboStep(){attackType = AttackType.X, data = _animSetPlayer.AttackData[0]},
@@ -85,8 +91,9 @@ public class ComboMgr : MonoBehaviour
             }
         };
 
-        _playerComboAttacks[5] = new Combo() // HEAVY, AREA  shogun death
-        {            
+        _playerComboAttacks[5] = new Combo()
+        {
+            fullComboType = FullComboType.CRASH_GENERAL,
             comboSteps = new ComboStep[]
             {
                 new ComboStep(){attackType = AttackType.O, data = _animSetPlayer.AttackData[5]},
