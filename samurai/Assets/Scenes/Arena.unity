@@ -3301,7 +3301,7 @@ MonoBehaviour:
   hpSlider: {fileID: 1131451160}
   fullCombo: {fileID: 1406512177}
   blood: {fileID: 1688959544}
-  pauseBtn: {fileID: 0}
+  pauseBtn: {fileID: 409071694}
   comboList:
   - {fileID: 1984306926}
   - {fileID: 1908827190}
