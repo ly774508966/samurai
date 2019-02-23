@@ -82,6 +82,7 @@ public enum GameState
 	SaleScreen,
     Tutorial,
     Shop,
+    Pause,
 }
 
 public enum GameType

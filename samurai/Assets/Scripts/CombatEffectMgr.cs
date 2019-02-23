@@ -142,6 +142,11 @@ public class CombatEffectMgr : MonoBehaviour
 
     void LateUpdate()
     {
+        if (Game.Instance.IsPause())
+        {
+            return;
+        }
+
         Blood.UpdateEffect();
         BloodBig.UpdateEffect();
         /*BlockHit.Update();

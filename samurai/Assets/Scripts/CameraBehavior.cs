@@ -48,6 +48,11 @@ public class CameraBehavior : MonoBehaviour
             return;
         }
 
+        if (Game.Instance.IsPause())
+        {
+            return;
+        }
+
         UpdateFov();
         UpdateSloMotion();
 

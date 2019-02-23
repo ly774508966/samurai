@@ -8,7 +8,7 @@ public class ViewCtrlMain : ViewCtrlBase
     public UISet uiSet;
     public Slider hpSlider;
     public Image fullCombo;
-    public Image blood;
+    public GameObject bloods;
     public Button pauseBtn;
     
     public List<Image> comboList = new List<Image>();
@@ -20,7 +20,7 @@ public class ViewCtrlMain : ViewCtrlBase
     {
         HideCombo();
         fullCombo.gameObject.SetActive(false);
-        blood.gameObject.SetActive(false);
+        bloods.SetActive(false);
         foreach (var img in hitCount)
         {
             img.gameObject.SetActive(false);
@@ -101,13 +101,18 @@ public class ViewCtrlMain : ViewCtrlBase
 
     public void ShowBlood()
     {
-        if (blood.gameObject.activeSelf == false)
+        if (bloods.activeSelf == false)
         {
-            blood.gameObject.SetActive(true);
+            bloods.SetActive(true);
         }
-        blood.sprite = uiSet.bloodSprites[Random.Range(0, uiSet.bloodSprites.Count-1)];
-        blood.rectTransform.localPosition = new Vector3(Random.Range(-90, 90), Random.Range(-90, 90), 0);
-        UITween.Instance.FadeOut(blood.gameObject, 5);        
+        Image[] images = bloods.GetComponentsInChildren<Image>();
+        foreach (var img in images)
+        {
+            img.sprite = uiSet.bloodSprites[Random.Range(0, uiSet.bloodSprites.Count)];
+            img.rectTransform.localPosition = new Vector3(Random.Range(-60, 60), Random.Range(-60, 60), 0);
+            img.rectTransform.localEulerAngles = new Vector3(0, 0, Random.Range(0, 180));
+            UITween.Instance.FadeOut(img.gameObject, 1.5f, 5);
+        }         
     }
 
     public void ShowHit(uint hitCountVal)
@@ -138,6 +143,9 @@ public class ViewCtrlMain : ViewCtrlBase
 
     void OnPauseBtnClick()
     {
-
+        Game.Instance.PauseGame();
+        Time.timeScale = 0;
+        Hide();
+        UIMgr.Instance.views[ViewType.OPT].Show();
     }
 }

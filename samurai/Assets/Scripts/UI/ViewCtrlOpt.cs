@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ViewCtrlOpt : MonoBehaviour
+public class ViewCtrlOpt : ViewCtrlBase
 {
     public Button backBtn;
     public Button helpBtn;
@@ -19,7 +19,10 @@ public class ViewCtrlOpt : MonoBehaviour
 
     void OnBackBtnClick()
     {
-
+        Game.Instance.ResumeGame();
+        Time.timeScale = 1;
+        Hide();
+        UIMgr.Instance.views[ViewType.MAIN].Show();
     }
 
     void OnHelpBtnClick()
@@ -29,6 +32,10 @@ public class ViewCtrlOpt : MonoBehaviour
 
     void OnExitBtnClick()
     {
-
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif        
     }
 }

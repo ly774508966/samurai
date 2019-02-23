@@ -31,6 +31,19 @@ public class UITween : MonoBehaviour
         }        
     }
 
+    public void FadeOut(GameObject go, float delayTime, float fadeOutTime)
+    {
+        StopCoroutine("FadeOutImpl");
+        StartCoroutine(FadeOutImpl(go, delayTime, fadeOutTime));        
+    }
+
+    IEnumerator FadeOutImpl(GameObject go, float delayTime, float fadeOutTime)
+    {
+        FadeIn(go, 0);
+        yield return new WaitForSeconds(delayTime);
+        FadeOut(go, fadeOutTime);
+    }
+
     public void Bounce(GameObject go, float maxScale, float bounceTime, float fadeOutTime, float delayTime)
     {
         if (maxScale == 0)
